@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@constants/*": ["src/core/constants/*"],
+      "@HOCs/*": ["src/core/HOCs/*"],
+      "@typings/*": ["src/core/typings/*"],
+      "@shared-styles/*": ["src/core/shared-styles/*"],
+      "@http/query/*": ["src/core/queries/*"],
+      "@store/*": ["src/store/*"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@forms/*": ["src/forms/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils/*": ["src/utils/*"],
+      "@tests/*": ["src/tests/*"],
+      "@mocks/*": ["src/__mocks__/*"],
+      "ol": ["node_modules/@types/ol"],
+      "ol/*": ["node_modules/@types/ol/*"]
+    }
+  }
+}
